@@ -15,4 +15,4 @@ Tâches necessaires pour la démonstration :
 - Mettre une logique de tests sur les données (notamment le rejet dans une table de stagging)
 - Tester avec un snowflake sur un datalake azure
 
-image.png
+![alt text](img\archi.png?raw=true "Architecture avec DBT")
