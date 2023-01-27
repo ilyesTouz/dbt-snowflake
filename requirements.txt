@@ -1,0 +1,7 @@
+pandas
+openpyxl
+pyyaml
+requests
+Faker
+dbt-snowflake
+sqlfmt

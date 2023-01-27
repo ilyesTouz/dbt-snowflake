@@ -1,0 +1,43 @@
+
+version: 2
+
+models:
+  - name: fct_orders
+    description: "Order fact table from SAP source"
+    columns:
+      - name: order_id
+        description: "Order's number . It's the primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: order_creation_date
+        description: "Order's creation date"
+        tests:
+          - not_null
+
+      - name: order_qty
+        description: "Ordered quantity"
+        tests:
+          - not_null
+
+      - name: billing_qty
+        description: "Billed quantity"
+        tests:
+          - not_null
+
+      - name: shipping_location
+        description: "Shipping location"
+        tests:
+          - not_null
+
+      - name: sales_location
+        description: "Sales location"
+        tests:
+          - not_null
+
+      - name: country
+        description: "Country of the sales location"
+        tests:
+          - not_null
+      

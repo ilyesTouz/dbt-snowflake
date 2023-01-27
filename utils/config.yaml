@@ -1,0 +1,18 @@
+0SHIP_TO__0INDUSTRY___T:
+  - 'EUROPE'
+  - 'ASIA'
+  - 'AFRICA'
+GC_KUNNR__0SALES_DIST___T:
+  - 'GERMANY/AUSTRIA'
+  - 'FRANCE/GERMANY'
+  - 'FRANCE/INDIA'
+  - 'FRANCE/ALGERIA'
+Country:
+  - 'FRANCE'
+  - 'AUSTRIA'
+  - 'GERMANY'
+  - 'POLAND'
+  - 'UKRAINE'
+  - 'INDIA'
+  - 'CHINA'
+  - 'ALGERIA'
